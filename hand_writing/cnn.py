@@ -52,6 +52,7 @@ def get_test_x():
     var = Variable(torch.unsqueeze(test_data.data, dim=1)).type(torch.FloatTensor)[:10] / 255.
     return var
 
+
 def train_net():
     # Hyper Parameters
     EPOCH = 1

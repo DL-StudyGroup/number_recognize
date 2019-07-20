@@ -28,6 +28,7 @@ def pred_image_num(filename):
     pred_y = torch.max(output, 1)[1].numpy()
     print("output:", pred_y)
 
+
 pred_image_num("./data/5.png")
 pred_image_num("./data/1.png")
 
